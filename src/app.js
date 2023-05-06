@@ -1,7 +1,10 @@
+'use strict'
+
 import express from 'express'
 import morgan from 'morgan'
 import helmet from 'helmet'
 import compression from 'compression'
+import './database/init.mongodb.js'
 
 const app = express()
 
